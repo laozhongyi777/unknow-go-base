@@ -1,0 +1,36 @@
+ｇｏ　语言特点
+
+    类型安全和内存安全
+    直观和低代价的方案实现高并发
+    高效垃圾回首
+    快速编译
+    多核计算提升性能
+    utf-8 支持
+
+go的环境变量和工作目录
+    环境变量：
+    export GOROOT=~/go
+    export GOARCH=amd64
+    export GOOS=linux
+    export GOBIN=$GOROOT/bin/
+    export GOTOOLS=$GOROOT/pkg/tool/
+    export PATH=$PATH:$GOBIN:$GOTOOLS
+    export GOPATH=$HOME/learn/go
+
+    工作目录：
+    bin 存放编译后生成的文件
+    pkg　存放编译生成的包
+    src　　存放源码的目录
+    doc文档
+
+ｇｏ  常用命令
+    go get          获取包
+    go run          运行 .go结尾的文件
+    go build　　　   测试编译
+    go fmt          格式化源码
+    go install      编译包并编译整个程序
+    go test         运行测试文件
+    godoc          查看文档　　godoc -http=:8080
+
+ｇｏ   编辑器
+    无编程基础最好选择ＩＤＥ，　goland

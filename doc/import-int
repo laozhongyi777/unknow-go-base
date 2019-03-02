@@ -1,0 +1,24 @@
+导入包的方式
+//单个包
+import "fmt"   //单个包
+//导入多个包，简写方式
+import (
+    "fmt"
+    "os"
+    "math"
+)
+
+//导入的包的注意事项
+    导入包一定要使用，不然会报错
+    别名和省略调用不能同时使用，不然无法识别，已经无法维护代码
+
+//导入包别名写法
+package main
+
+import std "fmt"
+
+func main() {
+    std.Printf("hello, world")
+ }
+
+
