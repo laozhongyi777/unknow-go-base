@@ -1,0 +1,39 @@
+go 的基本类型
+
+    －布尔型：bool
+        －长度：１字节
+        －取值范围：true,false
+        -注意事项：不可用数字代表true或false
+
+     －整型：int/uint
+        -根据运行平台可能为３２/６４位
+
+     －8位整型：int8/uint8
+        －长度：１个字节
+        －取值范围：-128~127/0~25 //负的128到127  2的８次方个
+
+     －字节型：byte(uint８别名)
+
+     -　复数：complex64/complex128
+        -长度：8/16字节
+     －足够保存指针的32/64位整型：uintptr
+
+     -其他值类型：
+         array  struct  string
+
+      －引用类型
+         slice  map   chan
+
+      -接口类型：
+        inteface
+
+      -函数类型
+        func
+
+
+
+    类型零值
+        零值不等于控制、而是当变量声明某种类型后的默认值
+        通常情况下值类型的默认值为0，bool为false,string为空字符串
+
+
